@@ -1,0 +1,92 @@
+.navbar {
+    background-color: white; /* Dark background */
+    color: #000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+   
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px; /* Spacing between menu items */
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #000; /* White text color */
+  }
+  
+  
+  .ticket-button {
+    background-color: #f32525; /* Pink background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+.ab{
+font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: x-large;
+    bottom: 550px;
+    left:100px
+    
+    
+    
+ }
+.sp{
+    position:absolute;
+    left: 9px;
+    top: 1px;
+    color: white;
+    font-size: 85px;
+    
+    
+    
+  }
+  .p{
+    position: absolute;
+    color: white;
+    left: 100px;
+    bottom: 230px;
+  }
+  .t{
+    position: absolute;
+    color: white;
+    left: 100px;
+    bottom:110px ;
+  }
+  .v{
+    position: absolute;
+    color: white;
+    left: 300px;
+    bottom:110px ;
+  }
+  .tb2 {
+    position: absolute;
+    left: 175px;
+    bottom: 60px;
+    background-color: #f32525; /* Pink background */
+    color: #fff;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+   }

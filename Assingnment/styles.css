@@ -1,0 +1,94 @@
+.navbar {
+    background-color: #fff; /* Dark background */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+    
+
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:#000;
+    
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px; /* Spacing between menu items */
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color:#000; /* White text color */
+  }
+
+  .bgimg{
+    display: flex;
+    background-image: url(people-taking-part-high-protocol-event.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 0px;
+    
+  }
+  .body{
+    position: relative;
+    text-align: center;
+    color: #f32525;
+  }
+  .bottom-left{
+    position: absolute;
+    bottom: 480px;;
+    left: 16px;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+  }
+  .con{
+    position: absolute;
+    bottom: 300px;
+    left: 16px;
+    font-size: 80px;
+    color: #fff;
+    
+  }
+  .conbold{
+    position: absolute;
+    bottom: 200px;
+    left: 16px;
+    font-size: 80px;
+    color: #fff;
+  }
+ .loc{
+    position:absolute;
+    left: 16px;
+    bottom:150px ;
+    color: white;
+    font-size: 20px;
+
+ }
+ .tbutton {
+  position: absolute;
+  left: 20px;
+  bottom: 100px;
+  background-color: #f32525; /* Pink background */
+  color: #fff;
+  border:none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+ }
