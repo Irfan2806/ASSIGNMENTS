@@ -1,0 +1,77 @@
+.navbar {
+    background-color: white; /* Dark background */
+    color: #000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+   
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px; /* Spacing between menu items */
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #000; /* White text color */
+  }
+  
+  .schedule-section {
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 1.5em;
+  }
+
+.schedule-section h2 {
+    font-size:3em; /* Adjust size as needed */
+  
+    top: 170px; /* Adjust spacing as needed */
+}
+
+.schedule-section p {
+    font-size: 0.5em; /* Adjust size as needed */
+    top: 530px; /* Adjust spacing as needed */
+}
+.schedule {
+  position: absolute;
+  display: flex;
+  left: 350px;
+}
+
+.day {
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.label {
+  font-size: x-large;
+  margin-bottom: 0.7em; /* Space between label and time */
+}
+
+.time {
+  font-size: normal;
+  opacity: 0.75; /* Lighter text for time */
+}

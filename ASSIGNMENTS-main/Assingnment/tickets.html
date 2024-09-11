@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickets</title>
+  <link rel="stylesheet" href="tickets.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo" style="font-style: initial;">GLOBAL CYBER CONFERENCE</div>
+    <ul class="nav-menu">
+      <li><a href="index.html#Home">Home</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="tickets.html">Tickets</a></li>
+    </ul>
+    
+  </nav>
+  <section class="container">
+    <header>Registration Form</header>
+    <form action="#" class="form">
+      <div class="input-box">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter full name" required />
+      </div>  
+      <div class="input-box">
+        <label>Email Address</label>
+        <input type="text" placeholder="Enter email address" required />
+      </div>          
+        <div class="input-box">
+          <label>Phone Number</label>
+          <input type="number" placeholder="Enter phone number" required />
+        </div>          
+      <div class="gender-box">
+        <h3>Gender</h3>
+        <div class="gender-option">
+          <div class="gender">
+            <input type="radio" id="check-male" name="gender" checked />
+            <label for="check-male">male</label>
+          </div>
+          <div class="gender">
+            <input type="radio" id="check-female" name="gender" />
+            <label for="check-female">Female</label>
+          </div>
+          <div class="gender">
+            <input type="radio" id="check-other" name="gender" />
+            <label for="check-other">prefer not to say</label>
+          </div>
+        </div>
+      </div>
+      <div class="input-box address">
+        <label>Number of Tickets*</label>
+        <input type="text" required />
+      </div>
+      <div class="pm">
+        <p style="color:black;"><b>Payment Method</b></p>
+        <input type="radio" id="check-other" name="p"/>
+        <label for="pm">UPI</label></div>
+        <div class="pm">
+          <input type="radio" id="check-other" name="p"/>
+          <label for="pm">VISA</label>
+        </div>
+        <div class="pm">
+          <input type="radio" id="check-other" name="p"/>
+          <label for="pm">Debit card</label>
+        </div>
+      
+      <button>Submit</button>
+    </form>
+  </section>
+</body>
+</html>
